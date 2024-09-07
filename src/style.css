@@ -1,0 +1,107 @@
+body {
+    background-image: url('assets/Backgroud.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigationbar {
+    background: #b3b1b1;
+}
+
+.navbarText {
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbarText:hover {
+    opacity: 60%;
+}
+
+.navigationbarElements {
+    margin-right: 20px;
+}
+.navigationbarElements > .btn {
+    margin-left: 5px;
+    height: 50px;
+    width: 100px;
+}
+.policy {
+    font-size: 11px;
+    text-align: center;
+}
+
+@media all and (max-width: 40em) {
+    body { 
+        background-position: center; 
+        background-size: 50%;
+        background-repeat: repeat;
+    }
+    .NavbarButtons { 
+        margin-left: 5px; 
+    }
+    .NavbarButtons > button { 
+        margin: 4px; 
+    }
+
+    .nav-item {
+        text-align: right;
+        margin-left: 10%;
+    }
+}
+
+.indexCard {
+    margin-top: 20px;
+}
+
+.aboutMe {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.despreMine {
+    font-family: 'Style Script', cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.mention {
+    text-align: end;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.card-group {
+    text-align: center;
+    margin: 20px;
+}
+
+.confidentialitate {
+    margin: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.contacte {
+    margin: 20px;
+}
+
+.serviciiTitle {
+    font-size: 30px; 
+    font-family: 'Style Script', cursive, Georgia, 'Times New Roman', Times, serif;
+}
+
+.serviciiList {
+    margin-left: 10px;
+    list-style-image: url("assets/favicon.png");
+}
